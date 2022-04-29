@@ -2,6 +2,7 @@
 
 #include <string>
 #include "Osoite.h"
+#include "Koulu.h"
 
 
 using std::string;

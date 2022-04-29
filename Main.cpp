@@ -5,6 +5,7 @@
 #include "Osoite.h"
 #include "Opiskelija.h"
 #include "Opettaja.h"
+#include "Koulu.h"
 
 
 
@@ -16,6 +17,8 @@ using std::string;
 
 int main() {
 
+	//Small change?
+
 	//Polymorfismi. Olio voi samanaikaisesti olla monen luokan instanssi. "Opettaja" on myös ihminen :D
 
 	//C++ oletuksena "staattinen sidonta". Metodin toteutus valitaan osoittimen tyypin perusteella.
@@ -23,7 +26,7 @@ int main() {
 	//ajonaikaisesti katsotaan, minkä luokan instanssi on kantaluokkaosoittimen takana, ja valitaan metodi sen mukaan
 
 
-	
+	Koulu tko("TKO");
 
 
 
