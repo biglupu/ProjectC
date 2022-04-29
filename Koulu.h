@@ -2,6 +2,8 @@
 #include <string>
 #include <vector>
 
+using std::string;
+
 class Koulu
 {
 public:

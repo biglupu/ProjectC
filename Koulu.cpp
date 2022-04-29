@@ -11,6 +11,7 @@ Koulu::Koulu()
 }
 
 Koulu::Koulu(string aKoulunNimi)
+	:mKoulunNimi(aKoulunNimi)
 {
-	cout << "Luotu oppilaitos nimeltä " << aKoulunNimi << endl;
+	cout << "Luotu oppilaitos nimeltä " << endl;
 }
