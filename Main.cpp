@@ -16,6 +16,8 @@ using std::string;
 
 int main() {
 
+	//Small change?
+
 	//Polymorfismi. Olio voi samanaikaisesti olla monen luokan instanssi. "Opettaja" on myös ihminen :D
 
 	//C++ oletuksena "staattinen sidonta". Metodin toteutus valitaan osoittimen tyypin perusteella.
