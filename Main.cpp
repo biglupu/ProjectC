@@ -5,6 +5,7 @@
 #include "Osoite.h"
 #include "Opiskelija.h"
 #include "Opettaja.h"
+#include "Koulu.h"
 
 
 
@@ -25,7 +26,7 @@ int main() {
 	//ajonaikaisesti katsotaan, minkä luokan instanssi on kantaluokkaosoittimen takana, ja valitaan metodi sen mukaan
 
 
-	
+	Koulu tko("TKO");
 
 
 
