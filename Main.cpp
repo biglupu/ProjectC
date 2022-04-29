@@ -15,6 +15,7 @@ using std::string;
 
 
 int main() {
+	//laptoptest
 
 	//Polymorfismi. Olio voi samanaikaisesti olla monen luokan instanssi. "Opettaja" on myös ihminen :D
 
