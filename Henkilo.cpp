@@ -24,6 +24,13 @@ Henkilo::Henkilo(const string aNimi, int aIka, Osoite aOsoite) : nimi(aNimi), ik
 }
 
 
+Henkilo::Henkilo(const string& aNimi, int aIka, Koulu aKoulunNimi) : nimi(aNimi), ika(aIka), mKoulunNimi(aKoulunNimi)
+
+{
+	cout << "luodaan " << aNimi << ", jolla koulu alustettuna " << endl;
+}
+
+
 Henkilo::Henkilo(const Henkilo& aHenkilo)
 	:nimi(aHenkilo.nimi),ika(aHenkilo.ika),osoite(aHenkilo.osoite)
 {

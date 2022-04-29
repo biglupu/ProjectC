@@ -10,7 +10,7 @@ Koulu::Koulu()
 	cout << "luodaan koulu..." << endl;
 }
 
-Koulu::Koulu(string mKoulunNimi)
+Koulu::Koulu(string aKoulunNimi)
 {
-	cout << "Luotu oppilaitos nimeltä " << mKoulunNimi << endl;
+	cout << "Luotu oppilaitos nimeltä " << aKoulunNimi << endl;
 }
